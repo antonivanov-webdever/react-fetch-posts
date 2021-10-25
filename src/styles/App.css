@@ -32,7 +32,6 @@ h1 {
     opacity: 1;
     transform: scale(1);
 }
-
 .post-exit-active {
     opacity: 0.5;
     transform: scale(0.5);
