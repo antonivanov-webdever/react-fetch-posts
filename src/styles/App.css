@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: calc(100% - 30px);
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+.post-enter {
+    transform: scale(0.5);
+    opacity: 0.5;
+}
+.post-enter-active {
+    transform: scale(1);
+    opacity: 1;
+    transition: all 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+    transform: scale(1);
+}
+.post-exit-active {
+    opacity: 0.5;
+    transform: scale(0.5);
+    transition: all 500ms ease-in;
+}

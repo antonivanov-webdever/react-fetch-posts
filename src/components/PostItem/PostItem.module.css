@@ -1,0 +1,25 @@
+.post {
+    padding: 20px 35px;
+    border: 2px solid darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.post__content {
+    max-width: 80%;
+    width: 100%;
+}
+
+.post__title {
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.post__description {
+    margin-top: 10px;
+    color: #343434;
+    font-weight: 300;
+}

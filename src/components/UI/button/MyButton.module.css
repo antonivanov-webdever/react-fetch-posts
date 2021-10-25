@@ -1,0 +1,18 @@
+.myBtn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+}
+
+.red {
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.white {
+    border: 1px solid white;
+    color: white;
+}

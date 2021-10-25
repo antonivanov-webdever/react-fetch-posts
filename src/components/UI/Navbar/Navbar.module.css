@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top right, #38B2CE, #60B9CE);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    align-items: center;
+    padding-right: 30px;
+}
+
+.navigation {
+    display: flex;
+}
+.navigation__link {
+    text-decoration: none;
+    padding: 20px 24px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.navigation__link.current {
+    border-bottom: 3px solid;
+}
+
+.navigation__link:hover {
+    color: #ffffff;
+    background-color: dodgerblue;
+}
